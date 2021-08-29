@@ -1,0 +1,124 @@
+.dashboard-card {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  right: 1em;
+  bottom: 1em;
+  background-color: lightskyblue;
+  color: darkblue;
+  box-shadow: 0.5em 0.5em 0.25px darkgrey;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: .5em;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.page {
+  background-color: lightgray;
+  margin-bottom: 1em;
+}
+
+.top-section {
+  display: flex;
+  align-items: left;
+  flex-direction: start;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.first-row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.second-row {
+  display: flex;
+  margin-top: 1em;
+}
+
+mat-spinner {
+  margin: 20em;
+}
+
+.toolbar-icon {
+  padding: 0 14px;
+  margin-right: 1em;
+}
+
+.toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.weather-image {
+  margin-top: 1em;
+  margin-right: 0.5em;
+}
+
+.weather-desktop {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.toolbar-title {
+  margin-top: 1em;
+  margin-right: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar-desktop {
+  margin-top: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 2em;
+}
+
+.toolbar-title > span {
+  display: flex;
+  flex-shrink: 2;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+  height: 1.25em;
+}
+
+.my-location {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+mat-toolbar {
+  height: 4em;
+}
+
+.location-search {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 10em;
+}
+
+.error-message{
+  background: red;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
